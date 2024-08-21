@@ -3,14 +3,14 @@ import GetStartedButton from "../global/get-started"
 const Hero = () => {
     return (
         <section className="flex flex-col gap-[80px] lg:flex-row lg:gap-[100px] py-[50px] lg:py-[78.04px] w-full">
-            <div className="flex flex-col items-start gap-[33px] w-full flex-1 px-6 lg:px-0">
+            <div className="flex flex-col items-start gap-[33px] w-full flex-1 px-6 2xl:px-0">
                 <div className="flex flex-col gap-5 w-full">
                     <div className="flex flex-col gap-[15px] w-full">
                         <div className="flex flex-col gap-2 w-full">
                             <span className="text-blue text-base leading-5 font-medium tracking-[-0.02em]">
                                 Equipped with Millions of IP Resources
                             </span>
-                            <div className="text-primary text-[46px] leading-[58px] tracking-[-0.02em] lg:h-[116px] font-semibold">
+                            <div className="text-primary text-[46px] leading-[58px] tracking-[-0.02em] font-semibold">
                                 <div className="text-primary flex items-center gap-0.5 flex-wrap">
                                     The Most <img alt="lightning" src="/lightning_icon.svg" /> Complex
                                 </div>
