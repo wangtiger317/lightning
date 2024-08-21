@@ -1,6 +1,5 @@
 import Link from "next/link";
 import NavItem from "../ui/nav-item";
-import ArrowRightIcon from "../icon";
 
 const Nav = [
     {
@@ -39,7 +38,7 @@ const Header = () => {
                     </button>
                     <button className="flex items-center justify-center gap-0.5 h-12 w-[134px] lg:w-[154px] bg-blue text-base leading-5 font-medium text-white rounded-default">
                         Get Started
-                        <ArrowRightIcon />
+                        <img src="/arrow-right-icon.svg" alt="arrowRight" />
                     </button>
                 </div>
                 <span className="flex md:hidden items-center justify-center h-12 w-12 bg-blue/25 rounded-[15px] p-2 cursor-pointer">
