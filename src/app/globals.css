@@ -18,16 +18,25 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-end-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+@layer{
+  .text-18{
+    @apply text-[18px] leading-[22px] tracking-[-0.02em]
+  }
+  .subheading{
+    @apply text-[14px] tracking-[-0.02em] text-blue leading-[18px] font-medium
+  }
+  .heading{
+    @apply text-[28px] tracking-[-0.02em] text-primary leading-[35px] font-semibold
+  }
+  .description{
+    @apply text-[16px] tracking-[-0.02em] text-primary/75 leading-[20px] font-normal
   }
 }
