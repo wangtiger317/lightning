@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from "../icon"
+import ArrowRightIcon from "../icon"
 
 const GetStartedButton = () => {
     return (

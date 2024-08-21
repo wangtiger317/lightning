@@ -1,6 +1,6 @@
 import Link from "next/link";
 import NavItem from "../ui/nav-item";
-import { ArrowRightIcon } from "../icon";
+import ArrowRightIcon from "../icon";
 
 const Nav = [
     {
