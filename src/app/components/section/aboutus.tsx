@@ -52,7 +52,7 @@ const AboutUs = () => {
                     Why do businesses choose us for their operations?
                 </span>
                 <span className="description text-center max-w-[534px] mx-auto">
-                    We offer a reliable & complex proxy infrastructure at everyone's disposal, ready to deliver outstanding performances.
+                    We offer a reliable & complex proxy infrastructure at everyone&apos;s disposal, ready to deliver outstanding performances.
                 </span>
             </div>
 
