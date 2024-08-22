@@ -23,9 +23,9 @@ const Hero = () => {
                             Providing Top-Tier Proxies designed to ensure a high success rate on any task, be it easy or difficult.
                         </span>
                     </div>
-                    <div className="flex items-center gap-[25px]">
+                    <div className="flex items-center gap-3">
                         <GetStartedButton />
-                        <span className="cursor-pointer font-medium text-18">
+                        <span className="cursor-pointer px-3 flex items-center justify-center font-medium text-18 rounded-default transition-all py-5 h-[50px] hover:bg-primary hover:text-white">
                             View Plans
                         </span>
                     </div>

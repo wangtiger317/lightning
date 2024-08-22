@@ -58,7 +58,7 @@ const AboutUs = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 lg:gap-x-6 gap-y-[22px] w-full">
                 {about.map((item, index) => (
-                    <div key={index} className="flex flex-col gap-[11px] cursor-pointer border-2 border-transparent hover:border-blue hover:bg-blue/10 py-5 px-8 lg:py-[37px] lg:px-[45px] rounded-[15px]">
+                    <div key={index} className="flex flex-col gap-[11px] cursor-pointer border-2 border-transparent hover:border-blue hover:bg-blue/10 transition-all py-5 px-8 lg:py-[37px] lg:px-[45px] rounded-[15px]">
                         <img alt={`feat-icon-${index}`} src={item.icon} className="w-[50px] h-[50px]" />
                         <div className="flex flex-col gap-2.5 w-full">
                             <span className="text-primary text-[20px] leading-[25px] font-medium tracking-[-0.02em] text-start">

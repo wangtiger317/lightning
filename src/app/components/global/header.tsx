@@ -33,10 +33,10 @@ const Header = () => {
             </div>
             <div className="flex items-center gap-2">
                 <div className="flex items-center gap-2.5">
-                    <button className="px-[13.05px] bg-transparent outline-none border-none hidden md:flex items-center justify-center text-center text-primary text-base leading-5 tracking-[-0.02em]">
+                    <button className="px-[13.05px] bg-transparent hover:bg-primary hover:text-white h-10 transition-all rounded-default outline-none border-none hidden md:flex items-center justify-center text-center text-primary text-base leading-5 tracking-[-0.02em]">
                         Log In
                     </button>
-                    <button className="flex items-center justify-center gap-0.5 h-12 w-[134px] lg:w-[154px] bg-blue text-base leading-5 font-medium text-white rounded-default">
+                    <button className="flex items-center justify-center gap-0.5 h-12 w-[134px] lg:w-[154px] bg-blue hover:bg-primary text-base leading-5 font-medium text-white rounded-default">
                         Get Started
                         <img src="/arrow-right-icon.svg" alt="arrowRight" />
                     </button>
